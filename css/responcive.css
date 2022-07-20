@@ -41,7 +41,8 @@
     }
 
     .match-blogs {
-        width: 26%;
+        width: 27%;
+        margin-bottom: 2%;
     }
 
     .match-part-2, .match-part-3 {
@@ -50,7 +51,8 @@
     }
 
     .match-part-1 .match-blogs {
-        width: 64%;
+        width: 60%;
+        margin-bottom: 3%;
     }
 
     .match-part-1 {
