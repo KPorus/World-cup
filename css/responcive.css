@@ -78,11 +78,20 @@
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
-    .header{
+    .header {
+        /* position: relative; */
+        /* left: 7%; */
         width: fit-content;
+        margin-left: 127px;
     }
-    #footer{
-        width: fit-content;
+
+    #match{
+        position: relative;
+        left: 7%;
+    }
+
+    #footer {
+        width: 1231px;
     }
 
     .three{
@@ -140,9 +149,11 @@
     .match-details2 ul {
         display: flex;
         text-align: center;
-        position: relative;
-        left: 14%;
+        margin-left: 87%;
+        /* position: relative; */
+        /* left: 14%; */
         margin: 0 6px 0 6px;
+        justify-content: space-around;
     }
 
     .match-details2 ul li {
@@ -180,5 +191,99 @@
     }
     #footer{
         width: fit-content;
+    }
+
+    .match {
+        position: relative;
+        width: fit-content;
+        left: 4%;
+    }
+
+    .three{
+        display: none;
+    }
+
+    .match-part-2, .match-part-3 {
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+
+    .match-blogs {
+        position: relative;
+        left: 25px;
+        width: 60%;
+        margin-right: 7px;
+        border-radius: 13px;
+        border: 1px solid #E8E8E8;
+    }
+
+    .match-box{
+        display: none;
+    }
+
+    .match-part-1 .match-blogs {
+        position: relative;
+        left: 25px;
+        width: 30%;
+    }
+
+    .match-part-1 {
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+    }
+
+    .match-details {
+        display: none;
+        width: 43%;
+        margin-bottom: 3%;
+    }
+
+    .match .btn {
+        position: relative;
+        left: 44%;
+        top: 28px;
+        margin-bottom: 8%;
+        visibility: visible;
+    }
+
+    .match-details2 {
+        visibility: visible;
+    }
+
+    .match-details2 ul {
+        display: flex;
+        text-align: center;
+        margin-left: 87%;
+        /* position: relative; */
+        /* left: 14%; */
+        margin: 0 6px 0 6px;
+        justify-content: space-around;
+    }
+
+    .match-details2 ul li {
+        padding: 5px 0px 29px 0px;
+        width: 25;
+        background: #DD0000;
+        border-radius: 10px;
+        width: 251px;
+        position: relative;
+        left: 3px;
+        margin-bottom: 5%;
+        margin-left: 2%;
+        border: 1px solid #E8E8E8;
+    }
+    
+    
+    .match-details2 ul li a {
+        position: relative;
+        top: 13px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+        /* margin-right: 25px; */
     }
 }

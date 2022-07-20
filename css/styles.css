@@ -236,6 +236,10 @@
     visibility: hidden;
 }
 
+.match .button{
+    width: 100%;
+}
+
 .match-details2{
     visibility: hidden;
 }
