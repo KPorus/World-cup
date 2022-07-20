@@ -75,6 +75,19 @@
         /* grid-column-gap: 45px; */
         /* justify-content: space-evenly; */
     }
+
+
+    /* ================ match time part start ===================== */
+
+    .flag-details {
+        width: 117%;
+        margin-bottom: 3%;
+    }
+
+    .match-part-1 .flag-w {
+        width: 122%;
+        margin-bottom: 3%;
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -181,7 +194,7 @@
         color: #FFFFFF;
         /* margin-right: 25px; */
     }
-    
+
     
 }
 
@@ -285,5 +298,65 @@
         line-height: 30px;
         color: #FFFFFF;
         /* margin-right: 25px; */
+    }
+
+    
+     /* ================ match time part start ===================== */
+
+    #flag{
+        position: relative;
+        width: fit-content;
+        left: 0;
+        margin: 0 auto;
+    }
+    .f {
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+    }
+
+    .match-part-1 .flag-w {
+        width: 40%;
+        margin-bottom: 3%;
+    }
+
+    .match-part-2, .match-part-3 .flag-w {
+        width: 40%;
+        margin-bottom: 3%;
+    }
+    
+    .flag-one {
+        position: relative;
+        left: 101px;
+        width: 137%;
+        margin-right: 7px;
+        border-radius: 13px;
+        border: 1px solid #E8E8E8;
+    }
+
+    .flag-two {
+        position: relative;
+        left: 256px;
+        width: 131%;
+        margin-right: 7px;
+        border-radius: 13px;
+        border: 1px solid #E8E8E8;
+    }
+
+    .flag-one1 {
+        position: relative;
+        left: 90px;
+        width: 125%;
+        margin-right: 7px;
+        border-radius: 13px;
+        border: 1px solid #E8E8E8;
+    }
+
+    .flag-two2 {
+        position: relative;
+        left: 220px;
+        width: 117%;
+        margin-right: 7px;
+        border-radius: 13px;
+        border: 1px solid #E8E8E8;
     }
 }
